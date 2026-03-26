@@ -25,7 +25,10 @@ Applies to all cross-functional projects that deliver product features, services
 - Roadmap and Release Plan
 - Sprint/Iteration Backlog
 - Acceptance Criteria & Definition of Done
-- Risk Register
+- [Risk Register](./risk-register-template.md)
+- [Branching & PR Conventions](./branching-and-pr-conventions.md)
+- [PR Checklist](./pr-checklist.md)
+- [Release Checklist](./release-checklist.md)
 - Retrospective notes and action items
 
 ## Lifecycle (high-level)
@@ -44,3 +47,7 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Use [branching-and-pr-conventions.md](./branching-and-pr-conventions.md) as the canonical guide for branch names, commit messages, and PR descriptions.
+- Paste the [PR checklist](./pr-checklist.md) into every PR description before requesting review.
+- Follow the [release checklist](./release-checklist.md) for every planned release, including rollback and post-deploy verification steps.
+- Track and update project risks using the [risk register template](./risk-register-template.md).
