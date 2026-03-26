@@ -16,6 +16,14 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
 
+## Branching & PR Standards
+
+All contributors must follow the conventions documented in **[branching-and-pr-conventions.md](./branching-and-pr-conventions.md)**. Key points:
+
+- Branch names use `feature/`, `fix/`, `hotfix/`, `chore/`, or `docs/` prefixes.
+- Commit messages follow Conventional Commits format.
+- Every PR description must include the **[PR checklist](./pr-checklist.md)** before requesting review.
+
 ## Quality & Testing
 - Unit tests for new logic
 - Integration tests where applicable
@@ -34,7 +42,9 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Level 3: Sponsor-level escalation for business-impacting issues
 
 ## Execution Checklist
-- [ ] Branching and PR conventions documented in repo
+- [ ] Branching and PR conventions documented in repo (see [branching-and-pr-conventions.md](./branching-and-pr-conventions.md))
+- [ ] PR checklist template added to repo (see [pr-checklist.md](./pr-checklist.md))
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Release checklist reviewed before each release (see [release-checklist.md](./release-checklist.md))
